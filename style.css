@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    background-color: white;
+    margin: 80px 10px 80px 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.button-18 {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.button-19 {
+    align-items: center;
+    background-color: #e0e1e2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-19:hover,
+.button-19:focus {
+    background-color: #c7c8ca;
+    color: #ffffff;
+}
+
+.button-19:active {
+    background: #797a7a;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-19:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.text {
+    color: white;
+}
+
+.hero {
+    display: flex;
+    background-color: rgb(60, 162, 221);
+    padding: 2em 2em 2em 2em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    margin-right: 0px;
+    border: 5px solid white;
+    transform: translateY(24px);
+    margin-bottom: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.25);
+}
+
+@media (min-width: 576px) {
+    .container {
+        margin: 80px 200px 80px 200px;
+    }
+    .hero {
+        flex-direction: row;
+        padding: 2em 5em 2em 5em;
+        justify-content: flex-start;
+    }
+    .hero img {
+        transform: translateY(50px);
+        margin-bottom: 0px;
+        margin-right: 50px;
+    }
+}
